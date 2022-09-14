@@ -69,8 +69,6 @@ body {
 #result {
   position: fixed;
   top: 36%;
-  /* left: 10%; */
-  /* transform: translate(-50%, -50%); */
   height: 250px;
   width: 400px;
   background-color: #171717;
@@ -201,7 +199,7 @@ button {
 }
 
 /* for tablet devices */
-@media only screen and (min-width: 767px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   #histories {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
